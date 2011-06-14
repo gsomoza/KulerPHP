@@ -16,9 +16,9 @@
 
 define('KULER_PATH', realpath(dirname(__FILE__)));
 
-require_once KULER_PATH . '/lib/Theme.php';
-require_once KULER_PATH . '/lib/Comment.php';
-require_once KULER_PATH . '/lib/Exception.php';
+require_once KULER_PATH . '/Theme.php';
+require_once KULER_PATH . '/Comment.php';
+require_once KULER_PATH . '/Exception.php';
 
 class Kuler_Api {
     /**
