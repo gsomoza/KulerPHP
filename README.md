@@ -2,9 +2,11 @@ The PHP Kuler Library
 =====================
 A PHP wrapper for the Kuler API
 
-Usage
+Sample Usage
 -----
 ```php
+require_once "Kuler/Api.php";
+
 $kuler = new Kuler_Api('api_key');
 $themes = $kuler->get('recent');
 
