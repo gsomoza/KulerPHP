@@ -62,6 +62,27 @@ class Kuler_Theme {
             throw new Kuler_Exception('Property \'' . $name . '\' not found');
     }
 
+	/**
+	 * Retrieves the theme's author's name
+	 */
+	public function getAuthorLabel(){
+		return $this->_theme->themeAuthor->authorLabel;
+	}
+
+	/**
+	 * Retrieves the theme's author's Kuler ID
+	 */
+	public function getAuthorID(){
+		return $this->_theme->themeAuthor->authorID;
+	}
+	
+	/**
+	 * Retrieves the theme's title
+	 */
+	public function getTitle(){
+		return $this->_theme->themeTitle;
+	}
+
     /**
      * Returns an Array of strings where each string is the HEX color of a swatch
      * in the theme.
