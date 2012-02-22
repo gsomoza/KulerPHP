@@ -66,21 +66,21 @@ class Kuler_Theme {
 	 * Retrieves the theme's author's name
 	 */
 	public function getAuthorLabel(){
-		return $this->_theme->themeAuthor->authorLabel;
+		return (string)$this->_theme->themeAuthor->authorLabel;
 	}
 
 	/**
 	 * Retrieves the theme's author's Kuler ID
 	 */
 	public function getAuthorID(){
-		return $this->_theme->themeAuthor->authorID;
+		return (int)$this->_theme->themeAuthor->authorID;
 	}
 	
 	/**
 	 * Retrieves the theme's title
 	 */
 	public function getTitle(){
-		return $this->_theme->themeTitle;
+		return (string)$this->_theme->themeTitle;
 	}
 
     /**
