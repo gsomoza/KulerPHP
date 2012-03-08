@@ -5,9 +5,9 @@
  * @author Gabriel Somoza (me@gabrielsomoza.com)
  * @link http://gabrielsomoza.com
  * @version 0.1.1
-
+ *
  * @category Kuler
- * @package PHP Kuler API Library
+ * @package PHP-Kuler-API-Library
  * @link http://learn.adobe.com/wiki/display/kulerdev/B.+Feeds
  * 
  * @copyright Copyright (c) 2011-2012, Gabriel Somoza
