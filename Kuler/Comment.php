@@ -29,6 +29,8 @@
 
 /**
  * Provides encapsulation for an XML Comment retrieved from the API.
+ *
+ * @package PHP-Kuler-API-Library
  */
 class Kuler_Comment {
 
