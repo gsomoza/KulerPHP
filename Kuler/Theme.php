@@ -29,6 +29,8 @@
 
 /**
  * Provides encapsulation for an XML Theme retrieved from the API.
+ *
+ * @package PHP-Kuler-API-Library
  */
 class Kuler_Theme {
 
