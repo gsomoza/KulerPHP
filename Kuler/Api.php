@@ -33,6 +33,11 @@ require_once KULER_PATH . '/Theme.php';
 require_once KULER_PATH . '/Comment.php';
 require_once KULER_PATH . '/Exception.php';
 
+/**
+ * Wraps calls to the Kuler API
+ *
+ * @package PHP-Kuler-API-Library
+ */
 class Kuler_Api {
     /**
      * The API base url
